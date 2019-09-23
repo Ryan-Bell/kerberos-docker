@@ -32,10 +32,10 @@ bats --version
 echo "...OK"
 
 echo "=== Install java and maven ==="
-sudo add-apt-repository ppa:webupd8team/java -y
+#sudo add-apt-repository ppa:webupd8team/java -y
 sudo apt update
-echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | sudo debconf-set-selections
-sudo apt -y install oracle-java8-installer
-sudo apt -y install oracle-java8-set-default
+#echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | sudo debconf-set-selections
+#sudo apt -y install oracle-java8-installer
+#sudo apt -y install oracle-java8-set-default
 sudo apt install maven
 echo "...OK"
